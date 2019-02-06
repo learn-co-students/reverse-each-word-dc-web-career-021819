@@ -1,4 +1,4 @@
 def reverse_each_word(sentence)
-a = ["Hello", "there,", "and", "how", "are", "you?"]
-a.map(&:reverse!)
+sentence = ["Hello", "there,", "and", "how", "are", "you?"]
+sentence.map(&:reverse!)
 end 
